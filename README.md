@@ -1,8 +1,8 @@
-##Django Cloud Messaging App
+# Django Cloud Messaging App
 
 This Django application provides a cloud messaging solution for sending push notifications and messages to users on various platforms. With this app, you can easily integrate cloud messaging capabilities into your Django project and send targeted notifications to your users.
 
-###Features
+## Features
 
 - Send push notifications to iOS and Android devices
 - Send SMS messages to mobile numbers
@@ -10,35 +10,47 @@ This Django application provides a cloud messaging solution for sending push not
 - Targeted messaging based on user segments or custom filters
 - Easy integration with existing Django projects
 
-###Installation
+## Installation
 
-#Clone the repository:
+### Clone the repository:
 
+```sh
 git clone https://github.com/VictorTiger0225/Django-FRF.git
+```
 
-#Change into the project directory:
+### Change into the project directory:
 
+```sh
 cd Django-FR
+```
 
-#Create and activate a virtual environment:
+### Create and activate a virtual environment:
 
+```sh
 python3 -m venv venv
 source venv/bin/activate
+```
 
-#Install the required dependencies:
+### Install the required dependencies:
 
+```sh
 pip install -r requirements.txt
+```
 
-#Set up the database:
+### Set up the database:
 
+```sh
 python manage.py migrate
+```
 
-#Start the development server:
+### Start the development server:
 
+```sh
 python manage.py runserver
 Access the web-based dashboard at http://localhost:8000/admin and log in with your superuser credentials.
+```
 
-##Usage
+## Usage
 
 - Create a new project in the dashboard and configure the necessary settings, such as API keys for push notifications and SMS gateways.
 - Create user segments or custom filters to target specific groups of users for notifications.
